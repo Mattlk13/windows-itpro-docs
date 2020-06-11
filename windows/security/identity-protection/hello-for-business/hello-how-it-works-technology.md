@@ -1,6 +1,6 @@
 ---
 title: How Windows Hello for Business works - Technology and Terms
-description: Explains registration, authentication, key material, and infrastructure for Windows Hello for Business.
+description: Explore technology and terms associated with Windows Hello for Business. Learn how Windows Hello for Business works.
 ms.prod: w10
 ms.mktglfcycl: deploy
 ms.sitesec: library
@@ -71,7 +71,7 @@ Azure AD Join is intended for organizations that desire to be cloud-first or clo
 [Join Type](#join-type), [Hybrid Azure AD Joined](#hybrid-azure-ad-joined)
 
 ### More information
- - [Introduction to device management in Azure Active Directory](https://docs.microsoft.com/azure/active-directory/device-management-introduction).
+- [Introduction to device management in Azure Active Directory](https://docs.microsoft.com/azure/active-directory/device-management-introduction).
 
 [Return to Top](hello-how-it-works-technology.md)
 ## Azure AD Registered

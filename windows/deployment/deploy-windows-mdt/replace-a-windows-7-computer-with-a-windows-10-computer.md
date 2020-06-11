@@ -1,6 +1,6 @@
 ---
 title: Replace a Windows 7 computer with a Windows 10 computer (Windows 10)
-description: A computer replace scenario for Windows 10 is quite similar to a computer refresh for Windows 10; however, because you are replacing a machine, you cannot store the backup on the old computer.
+description: Learn how to replace a Windows 7 device with a Windows 10 device. Although the process is similar to performing a refresh, you'll need to backup data externally
 ms.assetid: acf091c9-f8f4-4131-9845-625691c09a2a
 ms.reviewer: 
 manager: laurawi
@@ -11,6 +11,7 @@ ms.mktglfcycl: deploy
 ms.localizationpriority: medium
 ms.sitesec: library
 ms.pagetype: mdt
+audience: itpro
 author: greg-lindsay
 ms.topic: article
 ---
@@ -42,7 +43,7 @@ When preparing for the computer replace, you need to create a folder in which to
 1. On MDT01, log on as **CONTOSO\\Administrator**.
 
 2. Create and share the **E:\\MigData** folder by running the following three commands in an elevated Windows PowerShell prompt:
-   ```powershell
+   ``` powershell
    New-Item -Path E:\MigData -ItemType directory
    New-SmbShare ?Name MigData$ ?Path E:\MigData 
    -ChangeAccess EVERYONE

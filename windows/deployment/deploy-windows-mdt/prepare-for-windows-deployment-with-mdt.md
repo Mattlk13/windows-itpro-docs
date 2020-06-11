@@ -1,6 +1,6 @@
 ---
 title: Prepare for deployment with MDT (Windows 10)
-description: This topic will walk you through the steps necessary to create the server structure required to deploy the Windows 10 operating system using the Microsoft Deployment Toolkit (MDT).
+description: Learn how to create the server structure required to deploy the Windows 10 operating system using the Microsoft Deployment Toolkit (MDT).
 ms.assetid: 5103c418-0c61-414b-b93c-a8e8207d1226
 ms.reviewer: 
 manager: laurawi
@@ -11,6 +11,7 @@ ms.mktglfcycl: deploy
 ms.localizationpriority: medium
 ms.sitesec: library
 ms.pagetype: mdt
+audience: itpro
 author: greg-lindsay
 ms.topic: article
 ---
@@ -100,7 +101,7 @@ By default MDT stores the log files locally on the client. In order to capture a
 1.  On MDT01, log on as **CONTOSO\\Administrator**.
 2.  Create and share the **E:\\Logs** folder by running the following commands in an elevated Windows PowerShell prompt:
 
-    ```powershell
+    ``` powershell
     New-Item -Path E:\Logs -ItemType directory
     New-SmbShare -Name Logs$ -Path E:\Logs -ChangeAccess EVERYONE
     icacls E:\Logs /grant '"MDT_BA":(OI)(CI)(M)'

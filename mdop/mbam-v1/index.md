@@ -1,12 +1,12 @@
 ---
 title: Microsoft BitLocker Administration and Monitoring 1 Administrator's Guide
 description: Microsoft BitLocker Administration and Monitoring 1 Administrator's Guide
-author: jamiejdt
+author: dansimp
 ms.assetid: 4086e721-db24-4439-bdcd-ac5ef901811f
 ms.pagetype: mdop, security
 ms.mktglfcycl: manage
 ms.sitesec: library
-ms.prod: w8
+ms.prod: w10
 ms.date: 04/19/2017
 ---
 

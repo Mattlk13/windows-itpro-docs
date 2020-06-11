@@ -1,15 +1,15 @@
 ---
 title: Apply a basic audit policy on a file or folder (Windows 10)
-description: You can apply audit policies to individual files and folders on your computer by setting the permission type to record successful access attempts or failed access attempts in the security log.
+description: Apply audit policies to individual files and folders on your computer by setting the permission type to record access attempts in the security log.
 ms.assetid: 565E7249-5CD0-4B2E-B2C0-B3A0793A51E2
 ms.reviewer: 
-ms.author: dolmont
+ms.author: dansimp
 ms.prod: w10
 ms.mktglfcycl: deploy
 ms.sitesec: library
 ms.pagetype: security
 ms.localizationpriority: none
-author: Mir0sh
+author: dansimp
 manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
@@ -38,14 +38,19 @@ To complete this procedure, you must be logged on as a member of the built-in Ad
     -   To audit successful events, click **Success.**
     -   To audit failure events, click **Fail.**
     -   To audit all events, click **All.**
-6.  In the **Applies to** box, click the object(s) that the audit of events will apply to. These include:
+
+ 
+
+6.  In the **Applies to** box, select the object(s) that the audit of events will apply to. These include:
+ 
     -   **This folder only**
     -   **This folder, subfolders and files**
     -   **This folder and subfolders**
     -   **This folder and files**
     -   **Subfolders and files only**
-    -   **Subfolders only**
-    -   **Files only.**
+    -   **Subfolders only** 
+    -   **Files only**
+ 
 7.  By default, the selected **Basic Permissions** to audit are the following:
     -   **Read and execute**
     -   **List folder contents**

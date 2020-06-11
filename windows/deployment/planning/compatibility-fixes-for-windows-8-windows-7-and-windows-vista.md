@@ -1,6 +1,6 @@
 ---
 title: Compatibility Fixes for Windows 10, Windows 8, Windows 7, and Windows Vista (Windows 10)
-description: You can fix some compatibility issues that are due to the changes made between Windows operating system versions. These issues can include User Account Control (UAC) restrictions.
+description: Find compatibility fixes for all Windows operating systems that have been released from Windows Vista through Windows 10.
 ms.assetid: cd51c824-557f-462a-83bb-54b0771b7dff
 ms.reviewer: 
 manager: laurawi
@@ -9,6 +9,7 @@ ms.prod: w10
 ms.mktglfcycl: plan
 ms.pagetype: appcompat
 ms.sitesec: library
+audience: itpro
 author: greg-lindsay
 ms.date: 04/19/2017
 ms.topic: article
@@ -28,8 +29,8 @@ ms.topic: article
 
 You can fix some compatibility issues that are due to the changes made between Windows operating system versions. These issues can include User Account Control (UAC) restrictions.
 
-**Important**  
-The Application Compatibility Toolkit (ACT) installs a 32-bit and a 64-bit version of the Compatibility Administrator. You must use the 32-bit version for 32-bit applications and the 64-bit version to work for 64-bit applications. You will receive an error message if you try to use the wrong version.
+> [!IMPORTANT]
+> The Application Compatibility Toolkit (ACT) installs a 32-bit and a 64-bit version of the Compatibility Administrator. You must use the 32-bit version for 32-bit applications and the 64-bit version to work for 64-bit applications. You will receive an error message if you try to use the wrong version.
 
 If you start the Compatibility Administrator as an Administrator (with elevated privileges), all repaired applications can run successfully; however, virtualization and redirection might not occur as expected. To verify that a compatibility fix addresses an issue, you must test the repaired application by running it under the destination user account.
 

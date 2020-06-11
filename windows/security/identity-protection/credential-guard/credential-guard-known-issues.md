@@ -8,7 +8,7 @@ ms.pagetype: security
 ms.localizationpriority: medium
 audience: ITPro
 author: dulcemontemayor
-ms.author: dolmont
+ms.author: dansimp
 manager: dansimp
 ms.collection: M365-identity-device-management
 ms.topic: article
@@ -16,7 +16,7 @@ ms.date: 08/17/2017
 ms.reviewer: 
 ---
 
-#  Windows Defender Credential Guard: Known issues 
+# Windows Defender Credential Guard: Known issues 
 
 **Applies to**
 -   Windows 10

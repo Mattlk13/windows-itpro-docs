@@ -13,12 +13,15 @@ ms.sitesec: library
 author: dansimp
 ms.author: dansimp
 ms.topic: article
-ms.date: 07/27/2017
+ms.date: 10/31/2019
 ---
 
 # Step by step: Surface Deployment Accelerator
 
 This article shows you how to install Microsoft Surface Deployment Accelerator (SDA), configure a deployment share for the deployment of Windows to Surface devices, and perform a deployment to Surface devices. This article also contains instructions on how to perform these tasks without an Internet connection or without support for Windows Deployment Services network boot (PXE).
+
+> [!NOTE]
+> SDA is not supported on Surface Pro 7, Surface Pro X, and Surface Laptop 3. For more information refer to [Deploy Surface devices](deploy.md).
 
 ## How to install Surface Deployment Accelerator
 
@@ -100,25 +103,25 @@ The following steps show you how to create a deployment share for Windows 10 tha
 
 7.  On the **Summary** page confirm your selections and click **Finish** to begin the creation of your deployment share. The process can take several minutes as files are downloaded, the tools are installed, and the deployment share is created. While the SDA scripts are creating your deployment share, an **Installation Progress** window will be displayed, as shown in Figure 5. A typical SDA process includes:
 
-   -   Download of Windows ADK
+    -   Download of Windows ADK
 
-   -   Installation of Windows ADK
+    -   Installation of Windows ADK
 
-   -   Download of MDT
+    -   Download of MDT
 
-   -   Installation of MDT
+    -   Installation of MDT
 
-   -   Download of Surface apps and drivers
+    -   Download of Surface apps and drivers
 
-   -   Creation of the deployment share
+    -   Creation of the deployment share
 
-   -   Import of Windows installation files into the deployment share
+    -   Import of Windows installation files into the deployment share
 
-   -   Import of the apps and drivers into the deployment share
+    -   Import of the apps and drivers into the deployment share
 
-   -   Creation of rules and task sequences for Windows deployment
+    -   Creation of rules and task sequences for Windows deployment
 
-   ![The installation progress window](images/sdasteps-fig5-installwindow.png "The installation progress window")
+    ![The installation progress window](images/sdasteps-fig5-installwindow.png "The installation progress window")
 
     *Figure 5. The Installation Progress window*
     

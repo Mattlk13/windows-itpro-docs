@@ -1,14 +1,14 @@
 ---
-title: Advanced Hunting API
+title: Advanced Hunting with Powershell API Basics
 ms.reviewer: 
-description: Use this API to run advanced queries
+description: Learn the basics of querying the Microsoft Defender Advanced Threat Protection API, using PowerShell.
 keywords: apis, supported apis, advanced hunting, query
 search.product: eADQiWindows 10XVcnh
 ms.prod: w10
 ms.mktglfcycl: deploy
 ms.sitesec: library
 ms.pagetype: security
-ms.author: mjcaparas
+ms.author: macapara
 author: mjcaparas
 ms.localizationpriority: medium
 manager: dansimp
@@ -117,4 +117,3 @@ $results | ConvertTo-Json | Set-Content file1.json
 - [Microsoft Defender ATP APIs](apis-intro.md)
 - [Advanced Hunting API](run-advanced-query-api.md)
 - [Advanced Hunting using Python](run-advanced-query-sample-python.md)
-- [Schedule Advanced Hunting](run-advanced-query-sample-ms-flow.md)
